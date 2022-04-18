@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: auto;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+h3 {
+  font-size: 4rem;
+  overflow: hidden;
+  margin: .2rem 3rem;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 2rem;
+  overflow: hidden;
+  margin: 1rem;
+  color: wheat;
+  text-align: left;
+}
+
+a {
+  color: #1c5d50;
+  padding: 1rem 5rem;
+  margin: .5rem;
+  background-color: white;
+  text-align: center;
+  transition: 800ms ease;
+  -webkit-transition: 800ms ease;
+  -moz-transition: 800ms ease;
+  -ms-transition: 800ms ease;
+  -o-transition: 800ms ease;
+  font-size: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.281);
+  background-color: #1c5d50;
+  border: 1px solid white;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+p {
+  color: whitesmoke;
+  line-height: 2rem;
+  text-align: left;
+  word-spacing: .3rem;
+  margin: .5rem;
+}

@@ -1,0 +1,68 @@
+.frontpage {
+    background-image: linear-gradient(890deg, #1c5d50, #2e2e2e);
+}
+
+
+img {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.test {
+    width: 100%;
+    padding: 2rem;
+    height: 50vh;
+    display: grid;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-height: 500px;
+}
+.curve-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.curve-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.curve-3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.curve-4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.span{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.span h3{
+    margin: 0;
+}
+.span h2{
+    margin-top: 2rem;
+}
+.bottom {
+    display: grid;
+    width: 100%;
+    background-color: #1c5d50;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+.bottom h2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1rem;
+}
+
+.final {
+    width: 100%;
+    display: grid;
+}
